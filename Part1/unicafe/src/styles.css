@@ -1,0 +1,25 @@
+* {
+    font-weight: 400;
+}
+
+button {
+    background: #fff;
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+button:hover,
+button:focus {
+    background: #333;
+    color: #fff ;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button + button {
+    margin-left: 1em;
+}
+
